@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar {
+	@apply h-10 flex justify-center items-center absolute w-full bg-white shadow-lg;
+}
+
+.btn {
+	@apply h-10 w-10 flex items-center justify-center cursor-pointer outline-none;
+}
